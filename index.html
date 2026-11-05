@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>StyleShop — Магазин одежды</title>
+</head>
+<body>
+
+    <header>
+        <h1>StyleShop</h1>
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#products">Товары</a>
+            <a href="#about">О нас</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section id="home">
+        <h2>Новая коллекция одежды</h2>
+        <p>Стильная одежда на каждый день по доступным ценам.</p>
+        <button onclick="document.getElementById('products').scrollIntoView()">Смотреть товары</button>
+    </section>
+
+    <hr>
+
+    <section id="products">
+        <h2>Наши товары</h2>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300" alt="Футболка" width="200">
+            <h3>Базовая футболка</h3>
+            <p>Цена: 1500 рублей</p>
+            <button onclick="alert('Вы выбрали футболку')">Купить</button>
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=300" alt="Джинсы" width="200">
+            <h3>Классические джинсы</h3>
+            <p>Цена: 3500 рублей</p>
+            <button onclick="alert('Вы выбрали джинсы')">Купить</button>
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1544441893-675973e31985?w=300" alt="Куртка" width="200">
+            <h3>Стильная куртка</h3>
+            <p>Цена: 5900 рублей</p>
+            <button onclick="alert('Вы выбрали куртку')">Купить</button>
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=300" alt="Сумка" width="200">
+            <h3>Женская сумка</h3>
+            <p>Цена: 2700 рублей</p>
+            <button onclick="alert('Вы выбрали сумку')">Купить</button>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="about">
+        <h2>О нашем магазине</h2>
+        <p>StyleShop — магазин современной одежды. Мы предлагаем качественные и стильные вещи для любого случая.</p>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>© 2026 StyleShop. Все права защищены.</p>
+        <p>Телефон: +7 (900) 123-45-67</p>
+    </footer>
+
+</body>
+</html>
